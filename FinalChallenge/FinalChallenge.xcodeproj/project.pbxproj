@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F02EF5521E4A1B600A6199B /* Featured.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5421E4A1B600A6199B /* Featured.storyboard */; };
+		2F02EF5721E4A21200A6199B /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5621E4A21200A6199B /* Discover.storyboard */; };
+		2F02EF5921E4A29A00A6199B /* Timeline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5821E4A29A00A6199B /* Timeline.storyboard */; };
+		2F02EF5B21E4A2A300A6199B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5A21E4A2A300A6199B /* Profile.storyboard */; };
+		2F02EF5D21E4A32400A6199B /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5C21E4A32400A6199B /* Onboarding.storyboard */; };
 		D8DB838BCDEE0D5D69280322 /* Pods_FinalChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39554C87CCD4A385B0D9C058 /* Pods_FinalChallenge.framework */; };
 		ED8EFBBB21E47EC000B19D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EFBBA21E47EC000B19D31 /* AppDelegate.swift */; };
-		ED8EFBBD21E47EC000B19D31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EFBBC21E47EC000B19D31 /* ViewController.swift */; };
 		ED8EFBC021E47EC000B19D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFBBE21E47EC000B19D31 /* Main.storyboard */; };
 		ED8EFBC321E47EC000B19D31 /* FinalChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED8EFBC121E47EC000B19D31 /* FinalChallenge.xcdatamodeld */; };
 		ED8EFBC521E47EC100B19D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFBC421E47EC100B19D31 /* Assets.xcassets */; };
@@ -18,11 +22,15 @@
 
 /* Begin PBXFileReference section */
 		03276554AB55539521D81635 /* Pods-FinalChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalChallenge/Pods-FinalChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		2F02EF5421E4A1B600A6199B /* Featured.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Featured.storyboard; sourceTree = "<group>"; };
+		2F02EF5621E4A21200A6199B /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		2F02EF5821E4A29A00A6199B /* Timeline.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timeline.storyboard; sourceTree = "<group>"; };
+		2F02EF5A21E4A2A300A6199B /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		2F02EF5C21E4A32400A6199B /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		39554C87CCD4A385B0D9C058 /* Pods_FinalChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FEEF227FEE6D1484EB2B42 /* Pods-FinalChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalChallenge/Pods-FinalChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		ED8EFBB721E47EC000B19D31 /* FinalChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8EFBBA21E47EC000B19D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED8EFBBC21E47EC000B19D31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED8EFBBF21E47EC000B19D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED8EFBC221E47EC000B19D31 /* FinalChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalChallenge.xcdatamodel; sourceTree = "<group>"; };
 		ED8EFBC421E47EC100B19D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +56,18 @@
 				39554C87CCD4A385B0D9C058 /* Pods_FinalChallenge.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F02EF5E21E4A32C00A6199B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ED8EFBBE21E47EC000B19D31 /* Main.storyboard */,
+				2F02EF5821E4A29A00A6199B /* Timeline.storyboard */,
+				2F02EF5A21E4A2A300A6199B /* Profile.storyboard */,
+				2F02EF5621E4A21200A6199B /* Discover.storyboard */,
+				2F02EF5421E4A1B600A6199B /* Featured.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		4CBD99FB599F5E981E901421 /* Pods */ = {
@@ -80,11 +100,11 @@
 		ED8EFBB921E47EC000B19D31 /* FinalChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				ED8EFBBA21E47EC000B19D31 /* AppDelegate.swift */,
-				ED8EFBBC21E47EC000B19D31 /* ViewController.swift */,
-				ED8EFBBE21E47EC000B19D31 /* Main.storyboard */,
 				ED8EFBC421E47EC100B19D31 /* Assets.xcassets */,
+				ED8EFBBA21E47EC000B19D31 /* AppDelegate.swift */,
 				ED8EFBC621E47EC100B19D31 /* LaunchScreen.storyboard */,
+				2F02EF5C21E4A32400A6199B /* Onboarding.storyboard */,
+				2F02EF5E21E4A32C00A6199B /* Storyboard */,
 				ED8EFBC921E47EC100B19D31 /* Info.plist */,
 				ED8EFBC121E47EC000B19D31 /* FinalChallenge.xcdatamodeld */,
 			);
@@ -151,8 +171,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8EFBC821E47EC100B19D31 /* LaunchScreen.storyboard in Resources */,
+				2F02EF5921E4A29A00A6199B /* Timeline.storyboard in Resources */,
 				ED8EFBC521E47EC100B19D31 /* Assets.xcassets in Resources */,
+				2F02EF5721E4A21200A6199B /* Discover.storyboard in Resources */,
+				2F02EF5521E4A1B600A6199B /* Featured.storyboard in Resources */,
+				2F02EF5B21E4A2A300A6199B /* Profile.storyboard in Resources */,
 				ED8EFBC021E47EC000B19D31 /* Main.storyboard in Resources */,
+				2F02EF5D21E4A32400A6199B /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED8EFBBD21E47EC000B19D31 /* ViewController.swift in Sources */,
 				ED8EFBBB21E47EC000B19D31 /* AppDelegate.swift in Sources */,
 				ED8EFBC321E47EC000B19D31 /* FinalChallenge.xcdatamodeld in Sources */,
 			);
@@ -334,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2J3NC7X3D;
+				DEVELOPMENT_TEAM = TZ3HWHN35P;
 				INFOPLIST_FILE = FinalChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,7 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2J3NC7X3D;
+				DEVELOPMENT_TEAM = TZ3HWHN35P;
 				INFOPLIST_FILE = FinalChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
