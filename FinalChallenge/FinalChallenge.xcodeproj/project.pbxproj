@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		296D573921E4A65F0029DB9E /* FeaturedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D573821E4A65F0029DB9E /* FeaturedTableViewCell.swift */; };
+		296D573F21E4A7930029DB9E /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D573E21E4A7930029DB9E /* FeaturedViewController.swift */; };
 		2F02EF5521E4A1B600A6199B /* Featured.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5421E4A1B600A6199B /* Featured.storyboard */; };
 		2F02EF5721E4A21200A6199B /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5621E4A21200A6199B /* Discover.storyboard */; };
 		2F02EF5921E4A29A00A6199B /* Timeline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5821E4A29A00A6199B /* Timeline.storyboard */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		03276554AB55539521D81635 /* Pods-FinalChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalChallenge/Pods-FinalChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		296D573821E4A65F0029DB9E /* FeaturedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTableViewCell.swift; sourceTree = "<group>"; };
+		296D573E21E4A7930029DB9E /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		2F02EF5421E4A1B600A6199B /* Featured.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Featured.storyboard; sourceTree = "<group>"; };
 		2F02EF5621E4A21200A6199B /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		2F02EF5821E4A29A00A6199B /* Timeline.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timeline.storyboard; sourceTree = "<group>"; };
@@ -50,6 +54,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		296D573A21E4A6660029DB9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				296D573B21E4A66F0029DB9E /* Featured */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		296D573B21E4A66F0029DB9E /* Featured */ = {
+			isa = PBXGroup;
+			children = (
+				296D573E21E4A7930029DB9E /* FeaturedViewController.swift */,
+			);
+			path = Featured;
+			sourceTree = "<group>";
+		};
+		296D574021E4A7D20029DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				296D574121E4A7ED0029DB9E /* Featured */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		296D574121E4A7ED0029DB9E /* Featured */ = {
+			isa = PBXGroup;
+			children = (
+				296D573821E4A65F0029DB9E /* FeaturedTableViewCell.swift */,
+			);
+			path = Featured;
+			sourceTree = "<group>";
+		};
 		2DF5A13E0DAE2B3E3621F257 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +141,8 @@
 				ED8EFBC621E47EC100B19D31 /* LaunchScreen.storyboard */,
 				2F02EF5C21E4A32400A6199B /* Onboarding.storyboard */,
 				2F02EF5E21E4A32C00A6199B /* Storyboard */,
+				296D574021E4A7D20029DB9E /* View */,
+				296D573A21E4A6660029DB9E /* Controller */,
 				ED8EFBC921E47EC100B19D31 /* Info.plist */,
 				ED8EFBC121E47EC000B19D31 /* FinalChallenge.xcdatamodeld */,
 			);
@@ -210,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8EFBBB21E47EC000B19D31 /* AppDelegate.swift in Sources */,
+				296D573921E4A65F0029DB9E /* FeaturedTableViewCell.swift in Sources */,
+				296D573F21E4A7930029DB9E /* FeaturedViewController.swift in Sources */,
 				ED8EFBC321E47EC000B19D31 /* FinalChallenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,8 +398,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TZ3HWHN35P;
+				DEVELOPMENT_TEAM = B989SMZ93Y;
 				INFOPLIST_FILE = FinalChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,8 +418,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TZ3HWHN35P;
+				DEVELOPMENT_TEAM = B989SMZ93Y;
 				INFOPLIST_FILE = FinalChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
