@@ -14,6 +14,9 @@
 		2F02EF5921E4A29A00A6199B /* Timeline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5821E4A29A00A6199B /* Timeline.storyboard */; };
 		2F02EF5B21E4A2A300A6199B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5A21E4A2A300A6199B /* Profile.storyboard */; };
 		2F02EF5D21E4A32400A6199B /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F02EF5C21E4A32400A6199B /* Onboarding.storyboard */; };
+		2F02EF6121E5D87800A6199B /* OnboardingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F02EF6021E5D87800A6199B /* OnboardingContentViewController.swift */; };
+		2F02EF6321E5DB1C00A6199B /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F02EF6221E5DB1C00A6199B /* OnboardingPageViewController.swift */; };
+		2F02EF6521E5DF5C00A6199B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F02EF6421E5DF5C00A6199B /* OnboardingViewController.swift */; };
 		D8DB838BCDEE0D5D69280322 /* Pods_FinalChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39554C87CCD4A385B0D9C058 /* Pods_FinalChallenge.framework */; };
 		ED8EFBBB21E47EC000B19D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EFBBA21E47EC000B19D31 /* AppDelegate.swift */; };
 		ED8EFBC021E47EC000B19D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFBBE21E47EC000B19D31 /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 		2F02EF5821E4A29A00A6199B /* Timeline.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timeline.storyboard; sourceTree = "<group>"; };
 		2F02EF5A21E4A2A300A6199B /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		2F02EF5C21E4A32400A6199B /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		2F02EF6021E5D87800A6199B /* OnboardingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewController.swift; sourceTree = "<group>"; };
+		2F02EF6221E5DB1C00A6199B /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		2F02EF6421E5DF5C00A6199B /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		39554C87CCD4A385B0D9C058 /* Pods_FinalChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FEEF227FEE6D1484EB2B42 /* Pods-FinalChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalChallenge/Pods-FinalChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		ED8EFBB721E47EC000B19D31 /* FinalChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +146,9 @@
 				ED8EFBBA21E47EC000B19D31 /* AppDelegate.swift */,
 				ED8EFBC621E47EC100B19D31 /* LaunchScreen.storyboard */,
 				2F02EF5C21E4A32400A6199B /* Onboarding.storyboard */,
+				2F02EF6421E5DF5C00A6199B /* OnboardingViewController.swift */,
+				2F02EF6221E5DB1C00A6199B /* OnboardingPageViewController.swift */,
+				2F02EF6021E5D87800A6199B /* OnboardingContentViewController.swift */,
 				2F02EF5E21E4A32C00A6199B /* Storyboard */,
 				296D574021E4A7D20029DB9E /* View */,
 				296D573A21E4A6660029DB9E /* Controller */,
@@ -247,9 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F02EF6121E5D87800A6199B /* OnboardingContentViewController.swift in Sources */,
 				ED8EFBBB21E47EC000B19D31 /* AppDelegate.swift in Sources */,
 				296D573921E4A65F0029DB9E /* FeaturedTableViewCell.swift in Sources */,
 				296D573F21E4A7930029DB9E /* FeaturedViewController.swift in Sources */,
+				2F02EF6521E5DF5C00A6199B /* OnboardingViewController.swift in Sources */,
+				2F02EF6321E5DB1C00A6199B /* OnboardingPageViewController.swift in Sources */,
 				ED8EFBC321E47EC000B19D31 /* FinalChallenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
