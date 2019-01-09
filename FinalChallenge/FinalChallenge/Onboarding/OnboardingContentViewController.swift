@@ -24,7 +24,12 @@ class OnboardingContentViewController: UIViewController {
         }
     }
     
-    @IBOutlet var onboardingImageView: UIImageView!
+    @IBOutlet var onboardingImageView: UIImageView! {
+        didSet {
+            onboardingImageView.layer.cornerRadius = 25.0
+            onboardingImageView.layer.masksToBounds = true
+        }
+    }
     
     //MARK: Properties
     
