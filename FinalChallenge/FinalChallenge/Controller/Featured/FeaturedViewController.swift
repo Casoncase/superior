@@ -19,6 +19,12 @@ class FeaturedViewController: UIViewController {
 
         self.navigationController?.navigationBar.prefersLargeTitles = true
     }
+    override func viewWillAppear(_ animated: Bool) {
+        let storyboard = UIStoryboard(name: "Onboarding", bundle: nil)
+        if let onboardingViewController = storyboard.instantiateViewController(withIdentifier: "OnboardingViewController") as? OnboardingViewController {
+            present(onboardingViewController, animated: true, completion: nil)
+        }
+    }
     
 
 }
