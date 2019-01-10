@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseFirestore
 
 class FeaturedViewController: UIViewController {
 
@@ -25,6 +26,23 @@ class FeaturedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        let db = Firestore.firestore()
+        let featuredId = db.collection("featured")
+        
+        featuredId.getDocuments { (snapshot, error) in
+            if let err = error {
+                print("error", err)
+            } else {
+                for document in (snapshot?.documents)! {
+                    print("aaaaaaaaa", document)
+                }
+            }
+        }
+        
+        print("featuredID")
+        
+        //        db.collection("featured/\(featuredId)")
         // Datasource and delegate
         self.featuredTableView.dataSource = self
         self.featuredTableView.delegate = self
