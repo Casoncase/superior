@@ -6,5 +6,7 @@ target 'FinalChallenge' do
   use_frameworks!
 
   # Pods for FinalChallenge
+	pod 'Firebase/Core'
+	pod 'Firebase/Firestore'
 
 end
