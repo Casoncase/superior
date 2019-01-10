@@ -34,7 +34,6 @@ class OnboardingViewController: UIViewController, OnboardingPageViewControllerDe
     
     func didUpdatePageIndex(currentIndex: Int) {
         updateUI()
-        print("updated")
     }
     
     func updateUI() {

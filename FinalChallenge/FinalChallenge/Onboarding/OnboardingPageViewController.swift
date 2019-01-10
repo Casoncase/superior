@@ -53,7 +53,6 @@ extension OnboardingPageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         var index = (viewController as! OnboardingContentViewController).index
         index -= 1
-        print(index)
         return contentViewController(at: index)
         
     }
@@ -61,7 +60,6 @@ extension OnboardingPageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         var index = (viewController as! OnboardingContentViewController).index
         index += 1
-        print(index)
         return contentViewController(at: index)
         
     }
