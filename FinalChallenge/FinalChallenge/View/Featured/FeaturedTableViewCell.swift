@@ -11,11 +11,30 @@ import UIKit
 class FeaturedTableViewCell: UITableViewCell {
 
     //MARK: Outlet Declaration
-    @IBOutlet weak var featuredImage: UIImageView!
-    @IBOutlet weak var featuredTitle: UILabel!
-    @IBOutlet weak var featuredPostedBy: UILabel!
-    @IBOutlet weak var featuredDescription: UILabel!
+    @IBOutlet weak var featuredImage: UIImageView! {
+        didSet {
+            self.featuredImage.layer.cornerRadius = 15.0
+            self.featuredImage.layer.masksToBounds = true
+        }
+    }
     
+    @IBOutlet weak var featuredBy: UILabel! {
+        didSet {
+            self.featuredBy.numberOfLines = 0
+        }
+    }
+    
+    @IBOutlet weak var featuredTitle: UILabel! {
+        didSet {
+            self.featuredTitle.numberOfLines = 0
+        }
+    }
+    
+    @IBOutlet weak var featuredCaption: UILabel! {
+        didSet {
+            self.featuredCaption.numberOfLines = 0
+        }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
