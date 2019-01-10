@@ -34,7 +34,7 @@
 		ED8EFBC321E47EC000B19D31 /* FinalChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED8EFBC121E47EC000B19D31 /* FinalChallenge.xcdatamodeld */; };
 		ED8EFBC521E47EC100B19D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFBC421E47EC100B19D31 /* Assets.xcassets */; };
 		ED8EFBC821E47EC100B19D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFBC621E47EC100B19D31 /* LaunchScreen.storyboard */; };
-		ED8EFC1821E747AE00B19D31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFC1721E747AE00B19D31 /* GoogleService-Info.plist */; };
+		ED8EFC1A21E74A2E00B19D31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFC1921E74A2E00B19D31 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,7 +69,7 @@
 		ED8EFBC421E47EC100B19D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED8EFBC721E47EC100B19D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED8EFBC921E47EC100B19D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED8EFC1721E747AE00B19D31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED8EFC1921E74A2E00B19D31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +212,7 @@
 				296D573A21E4A6660029DB9E /* Controller */,
 				2F02EF7E21E60B2200A6199B /* Extension */,
 				ED8EFBC921E47EC100B19D31 /* Info.plist */,
-				ED8EFC1721E747AE00B19D31 /* GoogleService-Info.plist */,
+				ED8EFC1921E74A2E00B19D31 /* GoogleService-Info.plist */,
 				ED8EFBC121E47EC000B19D31 /* FinalChallenge.xcdatamodeld */,
 			);
 			path = FinalChallenge;
@@ -295,7 +295,7 @@
 				ED8EFBC021E47EC000B19D31 /* Main.storyboard in Resources */,
 				2F02EF7921E60B1900A6199B /* Lato-Hairline.ttf in Resources */,
 				2F02EF7821E60B1900A6199B /* Lato-Regular.ttf in Resources */,
-				ED8EFC1821E747AE00B19D31 /* GoogleService-Info.plist in Resources */,
+				ED8EFC1A21E74A2E00B19D31 /* GoogleService-Info.plist in Resources */,
 				2F02EF7321E60B1900A6199B /* Lato-Italic.ttf in Resources */,
 				2F02EF5D21E4A32400A6199B /* Onboarding.storyboard in Resources */,
 			);
