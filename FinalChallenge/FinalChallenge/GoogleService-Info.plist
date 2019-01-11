@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>871883339658-rtfteoebhkemcfisffn3p7jv3kcts0d3.apps.googleusercontent.com</string>
+	<string>615214506510-o11er7c4mu0nfsq9586kshiq6tatifbp.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.871883339658-rtfteoebhkemcfisffn3p7jv3kcts0d3</string>
+	<string>com.googleusercontent.apps.615214506510-o11er7c4mu0nfsq9586kshiq6tatifbp</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDDJYTkh2NpEQMFoYwiR-LS0JYjeGaP2L4</string>
+	<string>AIzaSyB_hqmzyONJsTgcUY9nK_M9t8HGQx8MsJ0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>871883339658</string>
+	<string>615214506510</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>superior.FinalChallenge</string>
 	<key>PROJECT_ID</key>
-	<string>superiorfinalchallenge</string>
+	<string>cloudfirestoretraining</string>
 	<key>STORAGE_BUCKET</key>
-	<string>superiorfinalchallenge.appspot.com</string>
+	<string>cloudfirestoretraining.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:871883339658:ios:152ffd93606f8aef</string>
+	<string>1:615214506510:ios:152ffd93606f8aef</string>
 	<key>DATABASE_URL</key>
-	<string>https://superiorfinalchallenge.firebaseio.com</string>
+	<string>https://cloudfirestoretraining.firebaseio.com</string>
 </dict>
 </plist>
