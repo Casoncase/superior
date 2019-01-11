@@ -29,16 +29,16 @@ class FeaturedViewController: UIViewController {
         
         let db = Firestore.firestore()
         let featuredId = db.collection("featured")
-//
-//        featuredId.getDocuments { (snapshot, error) in
-//            if let err = error {
-//                print("error", err)
-//            } else {
-//                for document in (snapshot?.documents)! {
-//                    print("aaaaaaaaa", document)
-//                }
-//            }
-//        }
+
+        featuredId.getDocuments { (snapshot, error) in
+            if let err = error {
+                print("error", err)
+            } else {
+                for document in (snapshot?.documents)! {
+                    print("aaaaaaaaa", document)
+                }
+            }
+        }
         
 //        print("featuredID")
         
